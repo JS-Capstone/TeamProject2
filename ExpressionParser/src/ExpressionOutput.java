@@ -1,6 +1,6 @@
 /*
 ----------------------------------------------------------------------------------------------------------
-    Name:		ExpressionParser
+    Name:		ExpressionOutput
     Authors:	Ollie Peel, Jeffrey Saylor, Alex Brinkley, Rawan Alhachami
     Language:	Java
     Date:		2024-07-01
@@ -10,14 +10,15 @@
     Change Log
 ----------------------------------------------------------------------------------------------------------
     Who		Date		Reason
-    JQS		2024-07-11	Setting up base of code
+    OSP		2024-07-01	Original Version of Code
 ----------------------------------------------------------------------------------------------------------
 */
 package main;
 
-public class ExpressionParser {
-	// We need to use stacks
-	public static void infixParser() {}
-	
-	public static void expToParse(String expression) {}
+public class ExpressionOutput {
+    public static void main(String[] args) throws Exception{
+        // Read expressions from input file
+        // Use different user-defined classes to parse and evaluate expressions
+        // Output result to console
+    }
 }
