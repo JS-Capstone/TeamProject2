@@ -13,11 +13,26 @@
     JQS		2024-07-11	Setting up base of code
 ----------------------------------------------------------------------------------------------------------
 */
-package main;
 
 public class ExpressionParser {
 	// We need to use stacks
-	public static void infixParser() {}
+	public static void infixParser() {
+		
+	}
 	
-	public static void expToParse(String expression) {}
+	public static void expToParse(String expression) {
+		
+	}
+	
+	public static void evalExp(String expression) {
+		
+	}
+	
+	public static int getPrecedence(String op) {
+		if (op.equals("*") || op.equals("/")) { return 2; }
+		if (op.equals("+") || op.equals("-")) { return 1; }
+		throw new IllegalArgumentException(String.format("Operator %s is not supported.", op));
+	}
+	
+	public boolean compareOp(String op1, String op2) { return getPrecedence(op1) >= getPrecedence(op2); }
 }
